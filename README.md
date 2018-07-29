@@ -1,2 +1,2 @@
 # PythonInJava
-Python Function in Java!
+Python Functions in Java!
