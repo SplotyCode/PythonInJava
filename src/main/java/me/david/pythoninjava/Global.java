@@ -1,5 +1,7 @@
 package me.david.pythoninjava;
 
+
+//todo: ascii
 import me.david.pythoninjava.utils.StreamUtils;
 
 public class Global {
@@ -26,6 +28,10 @@ public class Global {
 
     public static boolean any(Iterable<Boolean> iterable) {
         return StreamUtils.stream(iterable).anyMatch(bool -> bool);
+    }
+
+    public static String bin(int number) {
+        return Integer.toBinaryString(number);
     }
 
 }
